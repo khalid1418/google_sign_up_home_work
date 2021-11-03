@@ -67,8 +67,8 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout2"
-        android:layout_width="match_parent"
-        android:layout_height="46dp"
+        android:layout_width="381dp"
+        android:layout_height="53dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="24dp"
         android:hint="Username"
@@ -79,6 +79,7 @@
             android:id="@+id/edit_th"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
+
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
@@ -182,12 +183,12 @@
     <TextView
         android:layout_width="142dp"
         android:layout_height="36dp"
-        android:layout_marginTop="35dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="26dp"
         android:text=" @gmail"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/textInputLayout2"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout4" />
+        app:layout_constraintBottom_toBottomOf="@+id/textInputLayout2"
+        app:layout_constraintEnd_toEndOf="@+id/textInputLayout2"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout2"
+        app:layout_constraintTop_toTopOf="@+id/textInputLayout2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
